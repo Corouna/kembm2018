@@ -5,3 +5,13 @@
 .ios .tabbar-labels .tab-link.tab-link-active .icon:not(.icon-ios-fill) {
   display: none;
 }
+
+/* For navbar, make it transparent */
+.md .navbar {
+    background: transparent;
+    color: #212121;
+}
+
+.md .navbar:after {
+	background:none; /* Hide box shadow */
+}
