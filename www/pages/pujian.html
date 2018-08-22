@@ -1,0 +1,25 @@
+<template>
+  <div class="page" data-name="pujian">
+    <div class="page-content">
+      <div class="block-title"><h2>Senarai lagu puji-pujian</h2></div>
+      <div class="list">
+        <ul>      
+          {{#each pujian}}
+	        <li class="item-content">{{tajuk}}</li>
+          {{/pujian}}
+        </ul>
+      </div>
+    </div>
+  </div>  
+</template>
+<script>
+  return {
+    data: function () {
+      console.log("Let see what is ::: ", this.$root.pujian);
+
+      return {
+        pujian: this.$root.pujian,
+      };
+    }
+  };
+</script>

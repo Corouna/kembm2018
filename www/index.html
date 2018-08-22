@@ -49,29 +49,35 @@
       <!-- Tabbar for switching views-tabs -->
       <div class="toolbar tabbar-labels toolbar-bottom-md">
         <div class="toolbar-inner">
-          <a href="#view-home" class="tab-link tab-link-active">
+          <a href="#view-kembm" class="tab-link tab-link-active">
             <i class="icon f7-icons ios-only">home</i>
             <i class="icon f7-icons ios-only icon-ios-fill">home_fill</i>
             <i class="icon material-icons md-only">home</i>
-            <span class="tabbar-label">Aturcara</span>
+            <span class="tabbar-label">Kem BM 2018</span>
           </a>
-          <a href="#view-catalog" class="tab-link">
-            <i class="icon f7-icons ios-only">star</i>
-            <i class="icon f7-icons ios-only icon-ios-fill">star_fill</i>
-            <i class="icon material-icons md-only">star</i>
-            <span class="tabbar-label">Pujian</span>
-          </a>
-          <a href="#view-settings" class="tab-link">
+          <a href="#view-aturcara" class="tab-link">
             <i class="icon f7-icons ios-only">person</i>
             <i class="icon f7-icons ios-only icon-ios-fill">person_fill</i>
             <i class="icon material-icons md-only">person</i>
-            <span class="tabbar-label">Tentang</span>
+            <span class="tabbar-label">Aturcara</span>
           </a>
+          <a href="#view-pujian" class="tab-link">
+            <i class="icon f7-icons ios-only">star</i>
+            <i class="icon f7-icons ios-only icon-ios-fill">star_fill</i>
+            <i class="icon material-icons md-only">star</i>
+            <span class="tabbar-label">Puji-pujian</span>
+          </a>
+          <!-- <a href="#view-pujian" class="tab-link">
+            <i class="icon f7-icons ios-only">person</i>
+            <i class="icon f7-icons ios-only icon-ios-fill">person_fill</i>
+            <i class="icon material-icons md-only">person</i>
+            <span class="tabbar-label">Puj-pujian</span>
+          </a> -->
         </div>
       </div>
       <!-- Your main view/tab, should have "view-main" class. It also has "tab-active" class -->
-      <div id="view-home" class="view view-main tab tab-active">
-        <div class="page" data-name="home">
+      <div id="view-kembm" class="view view-main tab tab-active">
+        <div class="page" data-name="kembm">
 
           <!-- Left panel toggler -->
           <!-- <div class="navbar">
@@ -85,173 +91,15 @@
             </div>
           </div>   -->
 
-          <!-- Scrollable page content-->
-          <div class="page-content">
-            <div class="block-title"><h2>Aturcara program kem BM 2018</h2></div>
-            <div class="list">
-              <ul>
-                {{aturcara}}
-                
-                <!-- For aturcara -->
-                <script id="aturcara" type="text/template7">
-                  <!-- {{#each aturcara}}
-                    <li class="item-divider"><strong>{{hari}} ( {{tarikh}} )</strong></li>
-                    {{#each aktiviti}}
-                      <li class="item-content">
-                        <div class="item-inner">
-                          <div class="item-before">{{jam}} {{waktu}}</div>
-                          <div class="item-title">{{aktiviti}}</div>
-                        </div>
-                      </li>
-                    {{#each}}
-                  {{/each}} -->
-                </script>
-                
-                <!-- <li class="item-divider"><strong>Jumaat (21hb Sept)</strong></li>
-                <li class="item-content">
-                  <div class="item-inner">
-                    <div class="item-before">12.00 pm</div>
-                    <div class="item-title">Pembukaan kaunter pendaftaran</div>
-                  </div>
-                </li>
-                <li class="item-content">
-                  <div class="item-inner">
-                    <div class="item-before">4.00 pm</div>
-                    <div class="item-title">Acara pembukaan Kem BM 2018</div>
-                  </div>
-                </li>
-                <li class="item-content">
-                  <div class="item-inner">
-                    <div class="item-before">7.00 pm</div>
-                    <div class="item-title">Acara pembukaan Sabat</div>
-                  </div>
-                </li>
-                <li class="item-content">
-                  <div class="item-inner">
-                    <div class="item-before">7.30 pm</div>
-                    <div class="item-title">Makan malam</div>
-                  </div>
-                </li>
-                <li class="item-content">
-                  <div class="item-inner">
-                    <div class="item-before">9.00 pm</div>
-                    <div class="item-title">Acara malam Sabat</div>
-                  </div>
-                </li>
-                 <li class="item-content">
-                  <div class="item-inner">
-                    <div class="item-before">10.30pm</div>
-                    <div class="item-title">Tidur!!!</div>
-                  </div>
-                </li>
-
-                <li class="item-divider">Sabtu (22hb Sept)</li>
-                <li class="item-content">
-                  <div class="item-inner">
-                    <div class="item-before">7.00 am</div>
-                    <div class="item-title">Acara pagi - persediaan rohani</div>
-                  </div>
-                </li>
-                <li class="item-content">
-                  <div class="item-inner">
-                    <div class="item-before">8.00 am</div>
-                    <div class="item-title">Sarapan pagi</div>
-                  </div>
-                </li>
-                <li class="item-content">
-                  <div class="item-inner">
-                    <div class="item-before">9.30 am</div>
-                    <div class="item-title">Acara Sabat</div>
-                  </div>
-                </li>
-                <li class="item-content">
-                  <div class="item-inner">
-                    <div class="item-before">12.30 pm</div>
-                    <div class="item-title">Makan tengahari</div>
-                  </div>
-                </li>
-                <li class="item-content">
-                  <div class="item-inner">
-                    <div class="item-before">2.30 pm</div>
-                    <div class="item-title">Acara kerohanian petang</div>
-                  </div>
-                </li>
-                 <li class="item-content">
-                  <div class="item-inner">
-                    <div class="item-before">6.00 pm</div>
-                    <div class="item-title">Acara penutupan Sabat</div>
-                  </div>
-                </li>
-                 <li class="item-content">
-                  <div class="item-inner">
-                    <div class="item-before">7.30 pm</div>
-                    <div class="item-title">Makan malam</div>
-                  </div>
-                </li>
-                 <li class="item-content">
-                  <div class="item-inner">
-                    <div class="item-before">9.00 pm</div>
-                    <div class="item-title">Acara kerohanian malam</div>
-                  </div>
-                </li>
-                 <li class="item-content">
-                  <div class="item-inner">
-                    <div class="item-before">11.30 pm</div>
-                    <div class="item-title">Tidur!!!</div>
-                  </div>
-                </li>
-
-
-                <li class="item-divider">Ahad (23hb Sept)</li>
-                <li class="item-content">
-                  <div class="item-inner">
-                    <div class="item-before">6.30 am</div>
-                    <div class="item-title">Acara kerohanian pagi</div>
-                  </div>
-                </li>
-                <li class="item-content">
-                  <div class="item-inner">
-                    <div class="item-before">8.30 am</div>
-                    <div class="item-title">Sarapan pagi</div>
-                  </div>
-                </li>
-                <li class="item-content">
-                  <div class="item-inner">
-                    <div class="item-before">10.30 pm</div>
-                    <div class="item-title">Acara penutupan kem BM 2018</div>
-                  </div>
-                </li>
-                <li class="item-content">
-                  <div class="item-inner">
-                    <div class="item-before">12.00 pm</div>
-                    <div class="item-title">Selesai!!</div>
-                  </div>
-                </li> -->
-              </ul>
-            </div>
-
-            <!-- <div class="block-title">Modals</div>
-            <div class="block block-strong">
-              <div class="row">
-                <div class="col-50">
-                  <a href="#" class="button button-raised button-fill login-screen-open" data-login-screen="#my-login-screen">Login Screen</a>
-                </div>
-              </div>
-            </div> -->
-
-          </div>
+          THIS IS STILL ON CONSTRUCTION
         </div>
       </div>
 
-      <!-- Catalog View -->
-      <div id="view-catalog" class="view tab">
-        <!-- Catalog page will be loaded here dynamically from /catalog/ route -->
-      </div>
+      <!-- Aturcara View -->
+      <div id="view-pujian" class="view tab"></div>
 
-      <!-- Settings View -->
-      <div id="view-settings" class="view tab">
-        <!-- Settings page will be loaded here dynamically from /settings/ route -->
-      </div>
+      <!-- Aturacara View -->
+      <div id="view-aturcara" class="view tab"></div>
     </div>
 
     <!-- Login Screen -->

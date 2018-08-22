@@ -2,15 +2,10 @@
 /*********************************************************************/
 /*********************************************************************/
 /*********************************************************************/
-/*********************************************************************/
-/*********************************************************************/
 /* INIT */
 
 // Dom7
 var $$ = Dom7;
-
-// Templates
-var tmp_aturcara = $$('script#aturcara').html();
 
 // Framework7 App main instance
 var app  = new Framework7({
@@ -24,7 +19,8 @@ var app  = new Framework7({
 			user: _USER,
 			// Demo products for Catalog section
 			products: _PRODUCTS,
-			aturcara: _ATURCARA
+			aturcara: _ATURCARA,
+			pujian: _PUJIAN
 		};
 	},
 	// App root methods
@@ -41,21 +37,23 @@ var app  = new Framework7({
 });
 
 // Init/Create views
-var homeView = app.views.create('#view-home', {
+var kembmView = app.views.create('#view-kembm', {
 	url: '/'
 });
 
-var catalogView = app.views.create('#view-catalog', {
-	url: '/catalog/'
+var aturcaraView = app.views.create('#view-pujian', {
+	url: '/pujian/'
 });
 
-var settingsView = app.views.create('#view-settings', {
-	url: '/settings/'
+var catalogView = app.views.create('#view-aturcara', {
+	url: '/aturcara/'
 });
 
+// var pujianView = app.views.create('#view-pujian', {
+// 	url: '/pujian/'
+// });
 
-/*********************************************************************/
-/*********************************************************************/
+
 /*********************************************************************/
 /*********************************************************************/
 /*********************************************************************/
@@ -84,20 +82,10 @@ $$('#my-login-screen .login-button').on('click', function () {
 /*********************************************************************/
 /*********************************************************************/
 /*********************************************************************/
-/*********************************************************************/
-/*********************************************************************/
 /* SELF DEFINED METHODS */
 
 function init(){
-	initiateTemplates();
 	initiateLoginPage();
-}
-
-function initiateTemplates(){
-	// For aturcara
-	var aturcaraTemplate = Template7.compile(tmp_aturcara),
-		context = { aturcara : _ATURCARA };
-	aturcaraTemplate(context);
 }
 
 function initiateLoginPage(){

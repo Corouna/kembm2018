@@ -1,23 +1,31 @@
 routes = [
   {
     path: '/',
-    url: './index.html',
+    url: './index.html'
   },
   {
     path: '/about/',
     url: './pages/about.html',
   },
+  // {
+  //   path: '/aturcara/',
+  //   url: './pages/aturcara.html'
+  // },
+  // {
+  //   path: '/pujian/',
+  //   url: './pages/pujian.html'
+  // },
   {
-    path: '/catalog/',
-    componentUrl: './pages/catalog.html',
+    path: '/aturcara/',
+    componentUrl: './pages/aturcara.html'
   },
+  // {
+  //   path: '/product/:id',
+  //   componentUrl: './pages/product.html'
+  // },
   {
-    path: '/product/:id/',
-    componentUrl: './pages/product.html',
-  },
-  {
-    path: '/settings/',
-    url: './pages/settings.html',
+    path: '/pujian/',
+    componentUrl: './pages/pujian.html',
   },
   // Page Loaders & Router
   {
