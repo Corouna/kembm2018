@@ -15,3 +15,20 @@
 .md .navbar:after {
 	background:none; /* Hide box shadow */
 }
+
+.md .block-title {
+	margin: 16px 16px;
+}
+
+/* For list */
+.md .list {
+	font-size:13px;
+}
+
+.item-before {
+	font-weight: 700;
+}
+
+.item-title {
+	font-style: italic;
+}
