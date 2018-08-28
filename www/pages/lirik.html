@@ -1,0 +1,24 @@
+<template>
+  <div class="page" data-name="aturcara">
+    <div class="page-content">
+      <div class="block-title"><h2>{{tajuk}}</h2></div>
+      <div class="list">
+        <ul>      
+          {{#each lirik}}
+            <p>{{@index}}. {{this}}</p>
+          {{/each}}
+        </ul>
+      </div>
+    </div>
+  </div>	
+</template>
+<script>
+  return {
+    data: function () {
+      console.log("Let see what is ::: ", this.$root.lagu);
+      return {
+       lagu: this.$root.lagu,
+      };
+    }
+  };
+</script>

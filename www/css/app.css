@@ -32,3 +32,37 @@
 .item-title {
 	font-style: italic;
 }
+
+/* For swiper */
+.pembicara-swiper .swiper-slide {
+	font-size: 25px;
+	font-weight: 300;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #fff;
+	color: #000;
+}
+.pembicara-swiper .swiper-slide {
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    background: #fff;
+}
+.pembicara-swiper {
+    margin: 0px 0 35px;
+    font-size: 18px;
+    height: 100%;
+}
+.pembicara-swiper.pembicara-swiper-auto .swiper-slide {
+    width: 85%;
+}
+.pembicara-swiper.pembicara-swiper-auto .swiper-slide:nth-child(2n) {
+    width: 70%;
+}
+.pembicara-swiper.pembicara-swiper-auto .swiper-slide:nth-child(3n) {
+    width: 30%;
+}
+
+.swiper-pagination {
+	top: 10px;
+}

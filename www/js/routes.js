@@ -16,6 +16,10 @@ routes = [
   //   url: './pages/pujian.html'
   // },
   {
+    path: '/pembicara/',
+    url: './pages/pembicara.html'
+  },
+  {
     path: '/aturcara/',
     componentUrl: './pages/aturcara.html'
   },

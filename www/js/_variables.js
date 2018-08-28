@@ -3,7 +3,7 @@
 var _USER = {
 	firstName: 'John',
 	lastName: 'Doe'
-}
+};
 
 var _PRODUCTS = [
 	{
@@ -21,7 +21,7 @@ var _PRODUCTS = [
 		title: 'Apple iPhone X',
 		description: 'Expedita sequi perferendis quod illum pariatur aliquam, alias laboriosam! Vero blanditiis placeat, mollitia necessitatibus reprehenderit. Labore dolores amet quos, accusamus earum asperiores officiis assumenda optio architecto quia neque, quae eum.'
 	},
-]
+];
 
 var _ATURCARA = [
 	{
@@ -146,22 +146,46 @@ var _ATURCARA = [
 			}
 		]
 	}
-]
+];
 
 var _PUJIAN = [
 	{
-		tajuk: "Lagu tema BM Kem 2018"
+		tajuk: "Lagu tema BM Kem 2018",
+		id: 1
 	},
 	{
-		tajuk: "Kasih Yesus"
+		tajuk: "Kasih Yesus",
+		id: 2
 	},
 	{
-		tajuk: "Kepala Leher"
+		tajuk: "Kepala Leher",
+		id: 3
 	},
 	{
-		tajuk: "Aku Cinta Padamu Yesus"
+		tajuk: "Aku Cinta Padamu Yesus",
+		id: 4
 	},
 	{
-		tajuk: "Kau Yang Terindah"
+		tajuk: "Kau Yang Terindah",
+		id: 5
 	}
-]
+];
+
+var _LIRIK = [
+	{
+		id: 1
+	},
+	{
+		id: 2
+	},
+	{
+		id: 3
+	},
+	{
+		id: 4
+	},
+	{
+		id: 5
+	}
+
+];

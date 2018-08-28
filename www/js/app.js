@@ -41,6 +41,10 @@ var kembmView = app.views.create('#view-kembm', {
 	url: '/'
 });
 
+var pembicaraView = app.views.create('#view-pembicara', {
+	url: '/pembicara/'
+});
+
 var aturcaraView = app.views.create('#view-pujian', {
 	url: '/pujian/'
 });
@@ -75,7 +79,7 @@ $$('#my-login-screen .login-button').on('click', function () {
 	closeLoginPage();
 
 	// Alert username and password
-	app.dialog.alert('Name: ' + name + '<br>Email: ' + email + '<br>Telephone No: ' + telephone);
+	// app.dialog.alert('Name: ' + name + '<br>Email: ' + email + '<br>Telephone No: ' + telephone);
 });
 
 
