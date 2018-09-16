@@ -1,24 +1,42 @@
 <template>
-  <div class="page" data-name="aturcara">
-    <div class="page-content">
-      <div class="block-title"><h2>{{tajuk}}</h2></div>
-      <div class="list">
-        <ul>      
-          {{#each lirik}}
-            <p>{{@index}}. {{this}}</p>
-          {{/each}}
-        </ul>
-      </div>
-    </div>
-  </div>	
+	<div class="page" data-name="lagu">
+		<div class="navbar">
+	      	<div class="navbar-inner sliding">
+	        	<div class="left">
+	          		<a href="#" class="link back">
+	            		<i class="icon f7-icons">chevron_left</i>
+	          		</a>
+	        	</div>
+	        	<div class="title"><h7>{{tajuk}}</h7></div>
+	    	</div>
+	    </div>
+    	<div class="page-content">
+      		<div class="list" style="margin:0;">
+        		<ul>      
+          			{{#each lirik}}
+      					{{#each this}}
+            				<li class="item-content" style="min-height:35px;">{{this}}</li>
+            			{{/each}}
+            			<li class="item-divider" style="background:white; height:30px;"></li>
+          			{{/each}}
+        		</ul>
+      		</div>
+    	</div>
+  	</div>	
 </template>
 <script>
-  return {
-    data: function () {
-      console.log("Let see what is ::: ", this.$root.lagu);
-      return {
-       lagu: this.$root.lagu,
-      };
-    }
-  };
+	return {
+		data: function () {
+			var laguId = this.$route.params.id;
+			var laguPilihan;
+			
+			this.$root.pujian.forEach(function (lagu) {
+				if (lagu.id === parseInt(laguId)) {
+					laguPilihan = lagu;
+				}
+			});
+
+			return laguPilihan
+		}
+	};
 </script>

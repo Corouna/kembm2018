@@ -1,11 +1,15 @@
 <template>
   <div class="page" data-name="pujian">
+    <div class="navbar">
+      <div class="navbar-inner sliding">
+        <div class="title"><h7>Lagu puji-pujian</h7></div>
+      </div>
+    </div>
     <div class="page-content">
-      <div class="block-title"><h2>Senarai lagu puji-pujian</h2></div>
-      <div class="list">
+      <div class="list" style="margin:0;">
         <ul>      
           {{#each pujian}}
-	        <li class="item-content"><a href="/pujian/{{id}}/">{{tajuk}}</a></li>
+	        <li class="item-content" style="min-height:35px;"><a href="/pujian/{{id}}/">{{tajuk}}</a></li>
           {{/each}}
         </ul>
       </div>
@@ -15,7 +19,7 @@
 <script>
   return {
     data: function () {
-      console.log("Let see what is ::: ", this.$root.pujian);
+      // console.log("Let see what is ::: ", this.$root.pujian);
 
       return {
         pujian: this.$root.pujian,

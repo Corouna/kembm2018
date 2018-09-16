@@ -20,6 +20,15 @@
 	margin: 16px 16px;
 }
 
+.md .navbar {
+	background: deepskyblue;
+	color: #fff;
+}
+
+.md .navbar .title {
+	white-space: inherit;
+}
+
 /* For list */
 .md .list {
 	font-size:13px;

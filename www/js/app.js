@@ -17,8 +17,6 @@ var app  = new Framework7({
 	data: function () {
 		return {
 			user: _USER,
-			// Demo products for Catalog section
-			products: _PRODUCTS,
 			aturcara: _ATURCARA,
 			pujian: _PUJIAN
 		};

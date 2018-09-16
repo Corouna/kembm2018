@@ -31,6 +31,10 @@ routes = [
     path: '/pujian/',
     componentUrl: './pages/pujian.html',
   },
+  {
+    path: '/pujian/:id/',
+    componentUrl: './pages/lirik.html',
+  },
   // Page Loaders & Router
   {
     path: '/page-loader-template7/:user/:userId/:posts/:postId/',
