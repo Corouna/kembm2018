@@ -29,34 +29,19 @@ var _ATURCARA = [
 		hari: "Jumaat",
 		acara: [
 			{
-				jam: "12.00",
+				jam: "3.00",
 				waktu: "pm",
-				aktiviti: "Pembukaan kaunter pendaftaran"
+				aktiviti: "Urusan pendaftaran"
 			},
 			{
-				jam: "4.00",
-				waktu: "pm",
-				aktiviti: "Acara pembukaan Kem BM 2018"
-			},
-			{
-				jam: "7.00",
-				waktu: "pm",
-				aktiviti: "Acara pembukaan Sabat"
-			},
-			{
-				jam: "7.30",
+				jam: "6.30 - 7.30",
 				waktu: "pm",
 				aktiviti: "Makan malam"
 			},
 			{
-				jam: "9.00",
+				jam: "8.00 - 9.30",
 				waktu: "pm",
-				aktiviti: "Acara malam Sabat"
-			},
-			{
-				jam: "10.30",
-				waktu: "pm",
-				aktiviti: "Tidur!!!"
+				aktiviti: "Kebaktian malam Sabat"
 			}
 		]
 	},
@@ -65,48 +50,54 @@ var _ATURCARA = [
 		hari: "Sabtu",
 		acara: [
 			{
-				jam: "7.00",
+				jam: "7.45 - 8.15",
 				waktu: "am",
-				aktiviti: "Acara pagi - persediaan rohani"
+				aktiviti: "Sarapan"
 			},
 			{
-				jam: "8.00",
+				jam: "9.00 - 10.00",
 				waktu: "am",
-				aktiviti: "Sarapan pagi"
+				aktiviti: "Perasmian Kem BM 2018"
 			},
 			{
-				jam: "9.30",
+				jam: "10.00 - 10.45",
 				waktu: "am",
-				aktiviti: "Acara Sabat"
+				aktiviti: "Pelajaran Sekolah Sabat"
 			},
 			{
-				jam: "12.30",
+				jam: "11.00 - 12.00",
+				waktu: "pm",
+				aktiviti: "Sesi pertama : Perkasakan Kasihmu"
+			},
+			{
+				jam: "12.30 - 1.30",
 				waktu: "pm",
 				aktiviti: "Makan tengahari"
 			},
 			{
-				jam: "2.30",
+				jam: "2.45 - 4.00",
 				waktu: "pm",
-				aktiviti: "Acara kerohanian petang"
+				aktiviti: "Sesi kedua : Perkasakan Kasihmu"
 			},
 			{
-				jam: "6.00",
+				jam: "4.00 - 6.00",
 				waktu: "pm",
-				aktiviti: "Acara penutupan Sabat"
+				aktiviti: "Acara belia"
 			},
 			{
-				jam: "7.30",
+				jam: "6.30 - 7.30",
 				waktu: "pm",
 				aktiviti: "Makan malam"
 			},
 			{
-				jam: "9.00",
+				jam: "8.00 - 9.30",
 				waktu: "pm",
-				aktiviti: "Acara kerohanian malam"
-			},{
-				jam: "11.30",
+				aktiviti: "Sesi ketiga : Perkasakan Kasihmu"
+			},
+			{
+				jam: "9.30 - 11.00",
 				waktu: "pm",
-				aktiviti: "Tidur!!!"
+				aktiviti: "Free time"
 			}
 		]
 	},
@@ -115,34 +106,29 @@ var _ATURCARA = [
 		hari: "Ahad",
 		acara: [
 			{
-				jam: "7.00",
+				jam: "7.45 - 8.15",
 				waktu: "am",
-				aktiviti: "Acara kerohanian pagi"
+				aktiviti: "Sarapan"
 			},
 			{
-				jam: "8.30",
+				jam: "8.30 - 10.30",
 				waktu: "am",
-				aktiviti: "Sarapan pagi"
+				aktiviti: "Aktiviti outdoor"
 			},
 			{
-				jam: "10.30",
-				waktu: "am",
+				jam: "11.00 - 12.00",
+				waktu: "pm",
 				aktiviti: "Acara penutupan Kem BM 2018"
 			},
 			{
-				jam: "12.30",
+				jam: "12.30 - 1.30",
 				waktu: "pm",
 				aktiviti: "Makan tengahari"
 			},
 			{
-				jam: "2.00",
+				jam: "1.30",
 				waktu: "pm",
 				aktiviti: "Selesai!!!"
-			},
-			{
-				jam: "6.00",
-				waktu: "pm",
-				aktiviti: "Acara penutupan Sabat"
 			}
 		]
 	}

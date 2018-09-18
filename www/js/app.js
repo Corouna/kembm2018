@@ -28,10 +28,7 @@ var app  = new Framework7({
 		},
 	},
 	// App routes
-	routes: routes,
-	on: {
-		pageInit: init
-	}
+	routes: routes
 });
 
 // Init/Create views
@@ -86,41 +83,41 @@ $$('#my-login-screen .login-button').on('click', function () {
 /*********************************************************************/
 /* SELF DEFINED METHODS */
 
-function init(){
-	initiateLoginPage();
-}
+// function init(){
+// 	initiateLoginPage();
+// }
 
-function initiateLoginPage(){
-	//prepareApp();
+// function initiateLoginPage(){
+// 	//prepareApp();
 
-	var user = app.form.getFormData('form-userinfo');
-	if (_.isEmpty(user)){
-		openLoginPage();
-	}
-}
+// 	var user = app.form.getFormData('form-userinfo');
+// 	if (_.isEmpty(user)){
+// 		openLoginPage();
+// 	}
+// }
 
-function openLoginPage(){
-	app.loginScreen.open('#my-login-screen');
-}
+// function openLoginPage(){
+// 	app.loginScreen.open('#my-login-screen');
+// }
 
-function closeLoginPage(){
-	app.loginScreen.close('#my-login-screen');
-	$$('.page-content').scrollTop(0);
-}
+// function closeLoginPage(){
+// 	app.loginScreen.close('#my-login-screen');
+// 	$$('.page-content').scrollTop(0);
+// }
 
-function prepareApp(){
-	// This part is to standy the list of calls and page generation
-	// that needs to be completed upon opening the app.
+// function prepareApp(){
+// 	// This part is to standy the list of calls and page generation
+// 	// that needs to be completed upon opening the app.
 
-	app.request.get('mocks/aturcara.json', function(data){
-		console.log("Can i see what is ::: ", data);
-		prepareCampSchedule(data);
-	});
-}
+// 	app.request.get('mocks/aturcara.json', function(data){
+// 		console.log("Can i see what is ::: ", data);
+// 		prepareCampSchedule(data);
+// 	});
+// }
 
-function prepareCampSchedule(){
-	app.request.get('mocks/aturcara.json', function(data){
-		console.log("Can i see what is ::: ", data);
-		prepareCampSchedule(data);
-	});
-}	
+// function prepareCampSchedule(){
+// 	app.request.get('mocks/aturcara.json', function(data){
+// 		console.log("Can i see what is ::: ", data);
+// 		prepareCampSchedule(data);
+// 	});
+// }	

@@ -21,7 +21,7 @@
 }
 
 .md .navbar {
-	background: deepskyblue;
+	background: #2196f3;
 	color: #fff;
 }
 
@@ -108,4 +108,19 @@
 
 .md .card.pembicara-card .card-footer a.link .fab {
 	font-size:2em;
+}
+
+
+/* For rules page only */
+#view-kembm .page-content .item-content {
+	min-height:60px;
+	padding: 0 10px;
+}
+
+#view-kembm .page-content .item-content .item-before {
+	min-width:25px;
+}
+
+#view-kembm .page-content .item-content .item-title {
+	white-space: inherit;
 }
