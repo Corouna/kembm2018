@@ -1,47 +1,34 @@
 /* THIS IS TO STORE ALL GLOBAL VARIABLES!!! */
 
-var _USER = {
-	firstName: 'John',
-	lastName: 'Doe'
-};
-
-var _PRODUCTS = [
-	{
-		id: '1',
-		title: 'Apple iPhone 8',
-		description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi tempora similique reiciendis, error nesciunt vero, blanditiis pariatur dolor, minima sed sapiente rerum, dolorem corrupti hic modi praesentium unde saepe perspiciatis.'
-	},
-	{
-		id: '2',
-		title: 'Apple iPhone 8 Plus',
-		description: 'Velit odit autem modi saepe ratione totam minus, aperiam, labore quia provident temporibus quasi est ut aliquid blanditiis beatae suscipit odio vel! Nostrum porro sunt sint eveniet maiores, dolorem itaque!'
-	},
-	{
-		id: '3',
-		title: 'Apple iPhone X',
-		description: 'Expedita sequi perferendis quod illum pariatur aliquam, alias laboriosam! Vero blanditiis placeat, mollitia necessitatibus reprehenderit. Labore dolores amet quos, accusamus earum asperiores officiis assumenda optio architecto quia neque, quae eum.'
-	},
-];
-
 var _ATURCARA = [
 	{
 		tarikh: "21 September 2018",
 		hari: "Jumaat",
 		acara: [
 			{
+				id: 1,
 				jam: "3.00",
 				waktu: "pm",
-				aktiviti: "Urusan pendaftaran"
+				aktiviti: "Urusan pendaftaran",
+				pengendali: "Pandamaran",
+				memo: "Kaunter pendaftaran akan dibuka dihadapan dewan utama."
 			},
 			{
+				id: 2,
 				jam: "6.30 - 7.30",
 				waktu: "pm",
-				aktiviti: "Makan malam"
+				aktiviti: "Makan malam",
+				memo: "Semoga semua dapat menikmati makan malam yang akan disediakan. "
 			},
 			{
+				id: 3,
 				jam: "8.00 - 9.30",
 				waktu: "pm",
-				aktiviti: "Kebaktian malam Sabat"
+				aktiviti: "Kebaktian malam Sabat",
+				pengendali: 'Klang',
+				kutbah: "Jantung Fizikal",
+				pengkutbah: "Pastor Maclan Matthew",
+				memo: ""
 			}
 		]
 	},
@@ -50,51 +37,78 @@ var _ATURCARA = [
 		hari: "Sabtu",
 		acara: [
 			{
+				id: 4,
 				jam: "7.45 - 8.15",
 				waktu: "am",
 				aktiviti: "Sarapan"
 			},
 			{
+				id: 5,
 				jam: "9.00 - 10.00",
 				waktu: "am",
+				pengendali: "Pandamaran",
 				aktiviti: "Perasmian Kem BM 2018"
 			},
 			{
+				id: 6,
 				jam: "10.00 - 10.45",
 				waktu: "am",
-				aktiviti: "Pelajaran Sekolah Sabat"
+				pengendali: "Mengikut kumpulan",
+				aktiviti: "Pelajaran Sekolah Sabat",
+				memo: "Aktiviti akan dijalankan mengikut kumpulan yang telah ditetapkan. Sila lihat kepada tag nama untuk melihat kumpulan mana ada berada."
 			},
 			{
+				id: 7,
 				jam: "11.00 - 12.00",
 				waktu: "pm",
-				aktiviti: "Sesi pertama : Perkasakan Kasihmu"
+				aktiviti: "Sesi pertama",
+				pengendali: 'PAHC',
+				kutbah: "Perkasakan Kasihmu - Minda, pilihan dan perhubungan",
+				pengkutbah: "Pastor Frendy Rubil",
+				memo: ""
 			},
 			{
+				id: 8,
 				jam: "12.30 - 1.30",
 				waktu: "pm",
 				aktiviti: "Makan tengahari"
 			},
 			{
+				id: 9,
 				jam: "2.45 - 4.00",
 				waktu: "pm",
-				aktiviti: "Sesi kedua : Perkasakan Kasihmu"
+				aktiviti: "Sesi kedua",
+				pengendali: 'Gereja Seremban',
+				kutbah: "Perkasakan Kasihmu - Keinginan, kasih dan tujuan",
+				pengkutbah: "Pastor Maclan Matthew",
+				memo: ""
 			},
 			{
+				id: 10,
 				jam: "4.00 - 6.00",
 				waktu: "pm",
-				aktiviti: "Acara belia"
+				aktiviti: "Acara belia",
+				pengendali: "Pandamaran",
+				memo: "Aktiviti akan dijalankan mengikut kumpulan yang telah ditetapkan. Sila lihat kepada tag nama untuk melihat kumpulan mana ada berada."
 			},
 			{
+				id: 11,
 				jam: "6.30 - 7.30",
 				waktu: "pm",
 				aktiviti: "Makan malam"
 			},
 			{
+				id: 12,
 				jam: "8.00 - 9.30",
 				waktu: "pm",
-				aktiviti: "Sesi ketiga : Perkasakan Kasihmu"
+				aktiviti: "Sesi ketiga",
+				pengendali: 'Kluang / Megah Ria',
+				kutbah: "Perkasakan Kasihmu - Tekad, perasaan dan karakter",
+				pengkutbah: "Pastor Renie Ubara",
+				memo: ""
 			},
 			{
+				id: 13,
 				jam: "9.30 - 11.00",
 				waktu: "pm",
 				aktiviti: "Free time"
@@ -106,26 +120,34 @@ var _ATURCARA = [
 		hari: "Ahad",
 		acara: [
 			{
+				id: 14,
 				jam: "7.45 - 8.15",
 				waktu: "am",
 				aktiviti: "Sarapan"
 			},
 			{
+				id: 15,
 				jam: "8.30 - 10.30",
 				waktu: "am",
-				aktiviti: "Aktiviti outdoor"
+				aktiviti: "Aktiviti outdoor",
+				memo: "Aktiviti akan dijalankan mengikut gereja."
 			},
 			{
+				id: 16,
 				jam: "11.00 - 12.00",
 				waktu: "pm",
-				aktiviti: "Acara penutupan Kem BM 2018"
+				aktiviti: "Acara penutupan Kem BM 2018",
+				pengendali: "Pandamaran",
+				memo: "Upcara penutupan Kem BM 2018, dan penyampaian plak kepada tuan rumah yang seterusnya."
 			},
 			{
+				id: 17,
 				jam: "12.30 - 1.30",
 				waktu: "pm",
 				aktiviti: "Makan tengahari"
 			},
 			{
+				id: 18,
 				jam: "1.30",
 				waktu: "pm",
 				aktiviti: "Selesai!!!"
@@ -136,24 +158,20 @@ var _ATURCARA = [
 
 var _PUJIAN = [
 	{
-		tajuk: "Lagu tema - Bapa Yang Kekal",
+		tajuk: "** Lagu tema ** Yesus Aku Cinta",
 		id: 1,
 		lirik: [
 			[
-				'Kasih yang sempurna telah ku terima dari-Mu',
-			 	'Bukan kerna kebaikanku hanya', 
-				'Oleh kasih karunia-Mu',
-				'Kau pulihkan aku',
- 				'layakkanku tuk dapat memanggil-Mu, Bapa'
+				'Firman-Mu ya dan Amin',
+			 	'Janji-Mu menopangku', 
+				'Berjalan bersama-Mu',
+				'Disetiap musim hidupku'
 			],
 			[
-				'Kau beri yang kupinta',
-				'Saatku mencari ku mendapatkan',
-				'Ku ketuk pintu-Mu dan Kau bukakan',
-				'Sebab Kau Bapaku, Bapa yang kekal',
-				'Takkan Kau biarkan aku melangkah hanya sendirian',
-				'Kau selalu ada bagiku', 
-				'Sebab Kau bapaku Bapa yang kekal'
+				'Yesus aku cinta pada-Mu',
+				'Yesus tetaplah bersamaku',
+				'Tiada yang dapat menggantikan-Mu',
+				'Engkaulah jaminan hidupku'
 			]
 		]
 	},

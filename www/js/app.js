@@ -16,16 +16,9 @@ var app  = new Framework7({
 	// App root data
 	data: function () {
 		return {
-			user: _USER,
 			aturcara: _ATURCARA,
 			pujian: _PUJIAN
 		};
-	},
-	// App root methods
-	methods: {
-		helloWorld: function () {
-			app.dialog.alert('Hello World!');
-		},
 	},
 	// App routes
 	routes: routes

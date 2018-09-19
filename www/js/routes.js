@@ -4,18 +4,6 @@ routes = [
     url: './index.html'
   },
   {
-    path: '/about/',
-    url: './pages/about.html',
-  },
-  // {
-  //   path: '/aturcara/',
-  //   url: './pages/aturcara.html'
-  // },
-  // {
-  //   path: '/pujian/',
-  //   url: './pages/pujian.html'
-  // },
-  {
     path: '/pembicara/',
     url: './pages/pembicara.html'
   },
@@ -23,10 +11,10 @@ routes = [
     path: '/aturcara/',
     componentUrl: './pages/aturcara.html'
   },
-  // {
-  //   path: '/product/:id',
-  //   componentUrl: './pages/product.html'
-  // },
+  {
+    path: '/aturcara/:id',
+    componentUrl: './pages/memo.html'
+  },
   {
     path: '/pujian/',
     componentUrl: './pages/pujian.html',

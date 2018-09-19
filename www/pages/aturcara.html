@@ -11,11 +11,13 @@
           {{#each aturcara}}
             <li class="item-divider"><strong>{{hari}} ( {{tarikh}} )</strong></li>
             {{#each acara}}
-              <li class="item-content">
-                <div class="item-inner">
-                  <div class="item-before">{{jam}} {{waktu}}</div>
-                  <div class="item-title">{{aktiviti}}</div>
-                </div>
+              <li>
+                <a href="/aturcara/{{id}}/" class="item-link item-content">
+                  <div class="item-inner">
+                    <div class="item-before">{{jam}} {{waktu}}</div>
+                    <div class="item-title">{{aktiviti}}</div>
+                  </div>
+                </a>
               </li>
             {{/each}}
           {{/each}}

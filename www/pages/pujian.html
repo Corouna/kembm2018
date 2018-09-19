@@ -2,7 +2,7 @@
   <div class="page" data-name="pujian">
     <div class="navbar">
       <div class="navbar-inner sliding">
-        <div class="title"><h7>Lagu puji-pujian</h7></div>
+        <div class="title"><h7>Senarai lagu puji-pujian</h7></div>
       </div>
     </div>
     <div class="page-content">
@@ -22,7 +22,7 @@
       // console.log("Let see what is ::: ", this.$root.pujian);
 
       return {
-        pujian: this.$root.pujian,
+        pujian: _.orderBy(this.$root.pujian, ['tajuk'], ['asc'])
       };
     }
   };

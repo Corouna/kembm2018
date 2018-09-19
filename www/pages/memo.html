@@ -1,0 +1,74 @@
+<template>
+	<div class="page" data-name="memo">
+		<div class="navbar">
+	      	<div class="navbar-inner sliding">
+	        	<div class="left">
+	          		<a href="#" class="link back">
+	            		<i class="icon f7-icons">chevron_left</i>
+	          		</a>
+	        	</div>
+	        	<div class="title">
+	        		<h8>
+	        			{{aktiviti}}
+	        		</h8>
+	        	</div>
+	    	</div>
+	    </div>
+    	<div class="page-content">
+      		<div class="list" style="margin:0;">
+        		<ul>
+        			<li class="item-content">
+	        			<div class="item-before">Tarikh : </div>
+	        			<div class="item-title">{{tarikh}}</div>
+	        		</li>
+        			<li class="item-content">
+	        			<div class="item-before">Waktu : </div>
+	        			<div class="item-title">{{jam}} {{waktu}}</div>
+	        		</li>
+        			{{#if pengendali}}
+	        		<li class="item-content">
+	        			<div class="item-before">Pengendali : </div>
+	        			<div class="item-title">{{pengendali}}</div>
+	        		</li>
+	        		{{/if}}
+	        		{{#if kutbah}}
+	        		<li class="item-content">
+	        			<div class="item-before">Tajuk Kutbah : </div>
+	        			<div class="item-title">{{kutbah}}</div>
+	        		</li>
+	        		<li class="item-content">
+	        			<div class="item-before">Penyampai : </div>
+	        			<div class="item-title">{{pengkutbah}}</div>
+	        		</li>
+	        		{{/if}}
+	        		{{#if memo}}
+	        		<li class="item-content">
+	        			{{memo}}
+	        		</li>
+	        		{{/if}}
+        		</ul>
+      		</div>
+    	</div>
+  	</div>	
+</template>
+<script>
+	return {
+		data: function () {
+			var acaraId = this.$route.params.id,
+				program = this.$root.aturcara,
+				prog = {};
+
+			program.forEach(function (day) {
+				day.acara.forEach(function (evt){
+					if (evt.id === parseInt(acaraId)) {
+						prog['tarikh'] = day.tarikh;
+						prog['hari'] = day.hari;
+						_.assignIn(prog, evt);
+					}
+				});
+			});		
+
+			return prog;
+		}
+	};
+</script>

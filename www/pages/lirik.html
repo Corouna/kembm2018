@@ -7,7 +7,15 @@
 	            		<i class="icon f7-icons">chevron_left</i>
 	          		</a>
 	        	</div>
-	        	<div class="title"><h7>{{tajuk}}</h7></div>
+	        	<div class="title">
+	        		<h7>
+	        			{{#js_if "this.tajuk === '** Lagu tema ** Yesus Aku Cinta'"}}
+	        				Yesus Aku Cinta
+	        			{{else}}
+	        				{{tajuk}}
+	        			{{/js_if}}
+	        		</h7>
+	        	</div>
 	    	</div>
 	    </div>
     	<div class="page-content">

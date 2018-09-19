@@ -86,9 +86,24 @@
 
 .md .card.pembicara-card .card-header {
 	height: 200px;
-	font-size:25px;
+	font-size:20px;
 	color:#414141;
 	text-shadow: 1px 0px 1px #ccc, 0px 1px 1px #eee, 2px 1px 1px #ccc, 1px 2px 1px #eee, 3px 2px 1px #ccc, 2px 3px 1px #eee;
+}
+
+.md .card.pembicara-card .photo-frame {
+	width: 80px;
+    height: 90px;
+    background-color: white;
+    border: 2px solid #a4a4a4;
+    position: relative;
+    top: -12%;
+    left: 70%;
+    z-index: 15;
+}
+
+.md .card.pembicara-card .card-content-padding {
+	top: -80px;
 }
 
 .md .card.pembicara-card .card-content p.text-para {
@@ -123,4 +138,14 @@
 
 #view-kembm .page-content .item-content .item-title {
 	white-space: inherit;
+}
+
+/* For aturcara and memo pages only */
+#view-aturcara .page-content .item-content .item-title {
+	white-space: inherit;
+}
+
+[data-name="memo"] .page-content .item-content {
+	padding-left: 0;
+	padding: 0 20px;
 }
