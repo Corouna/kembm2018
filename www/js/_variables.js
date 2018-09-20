@@ -613,4 +613,344 @@ var _PUJIAN = [
 			]
 		]
 	},
+	{
+		tajuk: "Seperti Yang Kau Ingini",
+		id: 22,
+		lirik: [
+			[
+				'Bukan dengan barang fana',
+				'Kau membayar dosaku',
+				'Dengan darah yang mahal',
+				'Tiada noda dan cela',
+				'Bukan dengan emas perak',
+				'Kau menebus diriku',
+				'Oleh segenap kasih dan pengorbanan-Mu'
+			],
+			[
+				'(Cho)',
+				'Ku telah mati dan tinggalkan',
+				'Cara hidupku yang lama',
+				'Semuanya sia-sia ',
+				'Dan tak berate lagi',
+				'Hidup ini kuletakkan ',
+				'Pada mezbah-Mu ya Tuhan',
+				'Jadilah padaku seperti',
+				'Yang kau ingini'
+			]
+		]
+	},
+	{
+		tajuk: "You're My All In All",
+		id: 23,
+		lirik: [
+			[
+				'You are my strength when I am weak',
+				'You are the treasure that I seek',
+				'You are my all in all',
+				'Seeking You as a precious jewel',
+				'Lord to give up I’d be a fool',
+				'You are my all in all'
+			],
+			[
+				'Taking my sin, my cross, my shame',
+				'Rising again I bless Your name',
+				'You are my all in all',
+				'When I fall down You pick me up', 
+				'When I am dry You fill my cup',
+				'You are my all in all'
+			],
+			[
+				'(cho)',
+				'Jesus, Lamb of God, worthy is Your name',
+				'Jesus, Lamb of God, worthy is Your name'
+			]
+		]
+	},
+	{
+		tajuk: "Janji-Mu Seperti Fajar",
+		id: 24,
+		lirik: [
+			[
+				'Ketika kuhadapi kehidupan ini',
+				'Jalan mana yang harus kupilih',
+				'Kutahu ku tak mampu',
+				'Kutahu ku tak sanggup',
+				'Hanya kau Tuhan tempat jawapanku'
+			],
+			[	
+				'Aku pun tahu ku tak pernah sendiri',
+				'S’bab Engkau Allah yang menggendongku',
+				'Tangan-Mu membelaiku, Cinta-Mu memuaskanku',
+				'Kau mengangkatku ke tempat yang tinggi'
+			],
+			[
+				'(cho)',
+				'Janji-Mu s’perti fajar pagi hari',
+				'Dan tiada pernah terlambat bersinar',
+				'Cinta-mu s’perti sungai yang mengalir',
+				'Dan ku tau betapa dalam kasih-Mu'
+			]
+		]
+	},
+	{
+		tajuk: "Dia Mengerti",
+		id: 25,
+		lirik: [
+			[
+				'Terkadang kita merasa',
+				'Tak ada jalan terbuka',
+				'Tak ada lagi waktu',
+				'Terlambat sudah'
+			],
+			[
+				'Tuhan tak pernah berdusta',
+				'Dia s’lalu pegang janji-Nya',
+				'Bagi orang percaya',
+				'Mukjizat nyata'
+			],
+			[
+				'(cho)',
+				'Dia mengerti',
+				'Dia peduli',
+				'Persoalan yang sedang terjadi',
+				'Dia mengerti',
+				'Dia peduli',
+				'Persoalan yang kita alami',
+				'Namun satu yang Dia minta',
+				'Agar kita percaya',
+				'Sampai mukjizat menjadi nyata'
+			]
+		]
+	},
+	{
+		tajuk: "Allah Peduli",
+		id: 26,
+		lirik: [
+			[
+				'Banyak perkara',
+				'Yang tak dapat ku mengerti',
+				'Mengapakah harus terjadi',
+				'Di dalam kehidupan ini'
+			],
+			[
+				'Satu perkara',
+				'Yang ku simpan dalam hati',
+				'Tiada satu pun kan terjadi',
+				'Tanpa Allah peduli'
+			],
+			[
+				'(cho)',
+				'Allah mengerti',
+				'Allah peduli',
+				'Segala persoalan yang kita hadapi',
+				'Tak akan pernah dibiarkannya',
+				'Ku bergumul sendiri',
+				'S’bab Allah mengerti'
+
+			]
+		]
+	},
+	{
+		tajuk: "Make Me A Servant",
+		id: 27,
+		lirik: [
+			[
+				'Make me a servant',
+				'Humble and meek',
+				'Lord, let me lift up',
+				'Those who are weak',
+				'And may the prayer',
+				'Of my heart always be',
+				'Make me a servant',
+				'Make me a servant',
+				'Make me a servant today' 
+			]
+		]
+	},
+	{
+		tajuk: "Shine Jesus Shine",
+		id: 28,
+		lirik: [
+			[
+				'Lord the light of your love is shining',
+				'In the midst of the darkness, shining',
+				'Jesus, Light of the world, shine upon us',
+				'Set us free by the truth, You now bring us',
+				'Shine on me, shine one me.'
+			],
+			[
+				'As we gaze on Your Kingly brightness',
+				'So our faces display Your likeness',
+				'Ever changing from glory to glory',
+				'Mirrored here may our lives tell your story',
+				'Shine on me, shine on me.'
+			],
+			[
+				'(cho)',
+				'Shine, Jesus shine, fill this land with the Father’s glory',
+				'Blaze, spirit blaze, set our hearts on fire',
+				'Flow, river flow, flood the nations with grace and mercy',
+				'Send forth Your Word, Lord and let there be light.',
+				'Lord I come to Your awesome presence',
+				'From the shadows into Your radiance',
+				'By the blood I may enter Your brightness',
+				'Search me, try me, consume all my darkness',
+				'Shine on me, shine on me.'	
+			]
+		]
+	},
+	{
+		tajuk: "Senyum Dengan Muka Gembira",
+		id: 29,
+		lirik: [
+			[
+				'Senyum dengan muka gembira',
+				'Angkat tangan pujilah Dia',
+				'Berjabat tangan kita semua',
+				'Senyum gembira'
+			]
+		]
+	},
+	{
+		tajuk: "Side By Side",
+		id: 30,
+		lirik: [
+			[
+				'Side by side we stand, awaiting God’s command',
+				'Worshiping the saving king',
+				'Living by his grace',
+				'And moving on in faith',
+				'Jesus himself will see us thru'
+			],
+			[
+				'(cho)',
+				'Meet me in heaven, We’ll join hands together',
+				'Meet me by the Savior’s side, I’ll meet you in heaven',
+				'We’ll sing songs together, Brothers and sisters, I’ll be there.'
+			],
+			[
+				'Soldiers all are we, to go where Jesus leads',
+				'We’ll fight in faith and we will overcome',
+				'Heaven is our goal, and saving every soul',
+				'Pray that we all will be there',
+			],
+			[
+				'Praise the Lord we all will be there!'
+			]
+		]
+	},
+	{
+		tajuk: "There's A New World Somewhere",
+		id: 31,
+		lirik: [
+			[
+				'There’s a new world somewhere',
+				'We call the promised land',
+				'And I’ll be there someday',
+				'Since Jesus hold my hand',
+				'He is always here beside me',
+				'In all thins that I do',
+				'For I know I’ll never find a friend so true'
+			],
+			[
+				'(cho)',
+				'It’s a long, long journey so stay by my side',
+				'When I walk thru the storm',
+				'Lord be my guide, be my guide',
+				'If they gave me a fortune',
+				'My pleasure would be small',
+				'I could lose it all tomorrow and never mind at all',
+				'But if I should lose my way Lord',
+				'Please show me what to do',
+				'For I know I’ll never find a friend so true'
+			]
+		]
+	},
+	{
+		tajuk: "This Is The Day",
+		id: 32,
+		lirik: [
+			[
+				'This is the day (x2)',
+				'That the Lord has made (x2)',
+				'We will rejoice (x2)',
+				'And be glad in it (x2)',
+				'This is the day, that the Lord has made',
+				'We will rejoice, and be glad in it',
+				'This is the day (x2)',
+				'That the Lord has made'
+			]
+		]
+	},
+	{
+		tajuk: "This World Is Not My Home",
+		id: 33,
+		lirik: [
+			[
+				'This world is not my home',
+				'I’m just a passing through',
+				'My treasures are laid up',
+				'Somewhere beyond the blue',
+				'The savior beckons me',
+				'From heaven’s open door',
+				'And I can’t feel at home in this world anymore'
+			],
+			[
+				'(cho)',
+				'O Lord you know I have no friend like you',
+				'If heaven’s not my home',
+				'Then Lord what shall I do',
+				'The savior beckons me',
+				'From heaven’s open door',
+				'And I can’t feel at home in this world anymore'
+			]
+		]
+	},
+	{
+		tajuk: "With Jesus In The Vessel",
+		id: 34,
+		lirik: [
+			[
+				'With Jesus in the vessel',
+				'We can smile at the storm',
+				'Smile at the storm',
+				'Smile at the storm',
+				'As we go sailing home'
+			],
+			[
+				'Sailing, sailing home',
+				'Sailing, sailing home',
+				'With Jesus in the vessel we can smile at the storm',
+				'As we go sailing home'
+			]
+		]
+	},
+	{
+		tajuk: "When I Look Into Your Holiness",
+		id: 35,
+		lirik: [
+			[
+				'When I look into your holiness',
+				'When I gaze into your loveliness',
+				'When all things that surround become shadows',
+				'In the light of You'
+			],
+			[
+				'When I’ve found the joy',
+				'Of reaching Your heart',
+				'When my will becomes enthroned in You love',
+				'When all things that surround become shadows',
+				'In the light of You'
+			],
+			[
+				'(cho)',
+				'I worship you',
+				'I worship you',
+				'The reason I live is to worship you',
+				'I worship you',
+				'I worship you',
+				'The reason I live is to worship you'
+			]
+		]
+	}
 ];
