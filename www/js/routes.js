@@ -4,6 +4,10 @@ routes = [
     url: './index.html'
   },
   {
+    path: '/peta/',
+    componentUrl: './pages/peta.html'
+  },
+  {
     path: '/pembicara/',
     url: './pages/pembicara.html'
   },

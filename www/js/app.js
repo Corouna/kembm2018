@@ -29,6 +29,10 @@ var kembmView = app.views.create('#view-kembm', {
 	url: '/'
 });
 
+var petaView = app.views.create('#view-peta', {
+	url: '/peta/'
+});
+
 var pembicaraView = app.views.create('#view-pembicara', {
 	url: '/pembicara/'
 });
