@@ -399,23 +399,21 @@ var _PUJIAN = [
 		id: 13,
 		lirik: [
 			[
-				[
-					'Tak terbatas kuasaMu Tuhan',
-					'Semua dapat Kau lakukan',
-					'Apa yang kelihatan mustahil bagiku',
-					'Itu sangat mungkin bagiMu'
-				],
-				[
-					'(cho)',
-					'Di saat ku tak berdaya',
-					'KuasaMu yang sempurna',
-					'Ketika ku percaya',
-					'Mukjizat itu nyata',
-					'Bukan karna kekuatan',
-					'Namun RohMu, ya Tuhan',
-					'Ketika ku berdoa',
-					'Mukjizat itu nyata.'
-				]
+				'Tak terbatas kuasaMu Tuhan',
+				'Semua dapat Kau lakukan',
+				'Apa yang kelihatan mustahil bagiku',
+				'Itu sangat mungkin bagiMu'
+			],
+			[
+				'(cho)',
+				'Di saat ku tak berdaya',
+				'KuasaMu yang sempurna',
+				'Ketika ku percaya',
+				'Mukjizat itu nyata',
+				'Bukan karna kekuatan',
+				'Namun RohMu, ya Tuhan',
+				'Ketika ku berdoa',
+				'Mukjizat itu nyata.'
 			]
 		]
 	},
